@@ -1,0 +1,241 @@
+
+html{
+    scroll-behavior: smooth;
+    
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(./Imagenes/body_bg.png);
+  }
+  
+  header {
+    color: yellow;
+    padding: 20px;
+    font-family: fantasy;
+    
+  }
+
+  h1:hover{
+    color: orange;
+    opacity: 0.; 
+    transform: scale(1.2); 
+    border: solid;
+  }
+  
+  h2{
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+  } 
+  
+  h3{
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+  }
+  
+  .section1{
+    background-image: url(./Imagenes/Fondo\ amarillo.jpg);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    height: 900px;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  .section2{
+    background-color: rgba(57, 55, 55, 0.192);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    height: 1200px;
+    flex-direction: column;
+    color: white;
+    margin: auto;
+  }
+.section2 p{
+  font-size:18px;
+}
+
+.arbol{
+  background-image: url(./Imagenes/Captura\ de\ pantalla\ 2023-10-29\ 111328.png);
+  height: 650px;
+  width: 1000px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+  
+  .header div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  p{font-family: cursive;
+    font-size: larger;
+  }
+  
+  .bar ul{
+      display: flex;
+      gap: 46px;
+     font-size: 30px;
+  }
+  
+  .bar ul li {
+      list-style: none;
+      color: yellow;
+      
+  }
+  
+  .bar a {
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  
+  div{
+      display: flex;
+      padding: 16px;
+  }
+  img{
+      width: 180px;
+      height: auto;
+      border-radius: 50%;
+  }
+  
+  #foto{
+    border: 5px solid black;
+  }
+  
+  .bar ul a:hover{
+  opacity: 0.9; 
+  transform: scale(1.0);
+  background-color: white;
+  }
+  
+  .hover-img:hover {
+    opacity: 0.9; 
+    transform: scale(1.2); 
+  }
+
+.section3{
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  font-size: 24px;
+
+}
+
+.parte3{
+  justify-content: center;
+  position: absolute;
+  top: 445%;
+}
+
+.link{
+  position: absolute;
+  top: 470%   ;
+}
+
+.tabla1{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 10%;
+  top: 460%;
+
+}
+.tabla2{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 65%;
+  top: 460%;
+
+}
+
+.section4{
+  background-color: rgba(0, 0, 0, 0.381);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  height: 900px;
+  flex-direction: column;
+  color: #fff;
+  padding: 8px;
+  font-weight: normal;
+}
+
+.ver{
+  font-size: 35px;
+}
+
+.section5{
+  background-color: rgba(255, 255, 0, 0.74);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  flex-direction: column;
+  color: black#fff;
+  padding: 5px;
+  font-weight: normal;
+}
+
+.uno{
+  display: grid;
+  border-radius: 0%;
+  width: 300px;
+  position: absolute;
+  left: 5%;
+  top: 725%;
+  
+}
+
+.dos{
+  display: grid;
+  border-radius: 0%;
+  width: 300px;
+  position: absolute;
+  left: 28%;
+  top: 725%;
+}
+
+.tres{
+  display: grid;
+  border-radius: 0%;
+  width: 300px;
+  position: absolute;
+  left: 51%;
+  top: 725%;
+}
+
+.cuatro{
+  display: grid;
+  border-radius: 0%;
+  width: 300px;
+  position: absolute;
+  left: 75%;
+  top: 725%;
+}
+
+.foot{
+  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 790%;
+  width: 1505px;
+}
